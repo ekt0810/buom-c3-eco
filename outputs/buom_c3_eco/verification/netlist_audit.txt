@@ -1,0 +1,2 @@
+PASS: schematic/PCB/design.json agree for 89 connected pins.
+Power traces minimum width 1.0 mm; power vias 2

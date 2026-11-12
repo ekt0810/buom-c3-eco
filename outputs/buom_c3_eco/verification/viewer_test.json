@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "running": true,
+    "time": 2.812699999928473,
+    "meshes": 19,
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "left": -0.1649723443982053
+  },
+  "pause": true,
+  "camera": true,
+  "errors": []
+}

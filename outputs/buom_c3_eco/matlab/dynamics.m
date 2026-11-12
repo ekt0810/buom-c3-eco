@@ -1,0 +1,16 @@
+function dx=dynamics(t,x,u,P)
+% Reduced-order averaged flapping vehicle, NOT identified CFD/6-DOF model.
+% Roll/pitch moments are empirical control-effectiveness coefficients.
+phi=x(6); theta=x(7); v=max(0.4,x(4)); f=x(13);
+battery=max(0.8,(8.2-0.015*t)/7.4);
+L=P.m0*P.g*(f/P.f0)^2*(0.7+0.3*(v/P.V0)^2)*battery;
+d=[0;0];
+if P.disturbance && t>=18 && t<18.35, d=[3;-2]; end
+act=max(-P.slewAct,min(P.slewAct,(u(1:2)-x(11:12))/P.tauAct));
+dx=[v*cos(x(5))+P.wind(1); v*sin(x(5))+P.wind(2); x(10); ...
+    (P.V0+4*theta-v)/0.8; -P.g*tan(phi)/v; x(8); x(9); ...
+    P.rollGain*(P.m0/P.mass)*x(11)-P.rateDamp*x(8)+d(1); ...
+    P.pitchGain*(P.m0/P.mass)*x(12)-P.rateDamp*x(9)+d(2); ...
+    L*cos(phi)*cos(theta)/P.mass-P.g-P.vzDamp*x(10); ...
+    act; max(-3,min(3,(u(3)-f)/0.15))];
+end

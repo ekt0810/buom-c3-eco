@@ -1,0 +1,19 @@
+﻿ID,Linh kiện,SL,Đơn giá VND,Thành tiền VND,g/đv,Khối lượng mua g,Nhóm,Nguồn,Ghi chú
+A01,XIAO ESP32-C3 + anten đi kèm,1,170000,170000,3.5,3.5,Bướm,https://hshop.vn/mach-seeed-studio-xiao-esp32c3-risc-v-with-wi-fi-bluetooth5-0-battery-charge-supported,Giá tham khảo; các giá còn lại là dự toán cần hỏi người bán.
+A02,"SDS1601 HV 180° / 2S, kèm horn",2,650000,1300000,16,32,Bướm,https://www.elektormagazine.com/labs/make-an-esp32-rc-bionic-butterfly-that-flies-esp-flutter,"Mục trần: <=650k/con. Phải đúng bản HV chịu pin đầy 8.4V và >=750°/s không tải. Đặt theo link parts của tác giả, không thay SG90."
+A03,LiPo 2S 220mAh >=45C,1,220000,220000,13,13,Bướm,https://www.elektormagazine.com/labs/make-an-esp32-rc-bionic-butterfly-that-flies-esp-flutter,"Chỉ mua 1 pin đợt đầu. Xác nhận dòng tải, kích thước, cân nặng và giắc."
+A04,Mini-360 MP2307 buck chỉnh 5.0V,1,30000,30000,2,2,Bướm,https://www.monolithicpower.com/en/mp2307.html,Dự toán module; đo 5.0V trước cắm XIAO. Thử 0.5A liên tục; không lấy 5V cấp servo HV.
+A05,Bộ mạch nguồn/PWM + bảng lỗ nhỏ,1,90000,90000,2,2,Bướm,Schematic và tab PCB trong gói,"Gồm AHCT2G125 + adapter TSSOP, SS14, AO4407A, 2N7002, R/C, dây. Nếu khó hàn: dùng PCB carrier tùy chọn trong khoản dự phòng."
+M01,Carbon 1mm (1m/cây),4,45000,180000,10,40,Cơ khí,https://www.elektormagazine.com/labs/make-an-esp32-rc-bionic-butterfly-that-flies-esp-flutter,"Cắt theo bản cánh gốc; khối lượng đây là vật tư mua, không phải khối lượng lắp."
+M02,Carbon 1.5mm (1m),1,60000,60000,3,3,Cơ khí,Nguồn cơ khí của ESP-FLUTTER,Không phóng tỷ lệ cánh tùy ý.
+M03,Màng PE 10-20um khoảng 0.5m²,1,50000,50000,10,10,Cơ khí,Quy cách tìm mua; chưa xác nhận nhà bán,Cân tổng hai bên cánh + gân + keo <=16g làm mục tiêu ban đầu.
+M04,Khung đúng servo: file gốc + in nhẹ,1,250000,250000,5,5,Cơ khí,https://cults3d.com/en/3d-model/game/esp-flutter-an-esp32-bionic-rc-butterfly-that-flies-3d-design-files-max_imagination,"Dự toán tổng. File gốc có phí, không kèm trong gói. Giữ hình học cơ sở đã bay; không dùng hình AI làm bản cắt."
+M05,"Vít, keo, horn, dây, XT30, băng dính",1,100000,100000,4,4,Bướm,Quy cách lắp trong hướng dẫn,Dây pin và servo 24AWG ngắn; tín hiệu 30AWG. Horn lấy theo servo.
+T01,ESP32 DevKit V1 / ESP32-WROOM-32,1,120000,120000,0,0,Tay phát,https://docs.espressif.com/projects/arduino-esp32/en/latest/,Board mặt đất; không dùng ESP32-C3 thay chân mà không sửa firmware.
+T02,Joystick XY 10k + biến trở ga 10k,1,35000,35000,0,0,Tay phát,"ADC1 GPIO32/33/34, dùng nguồn 3.3V",Joystick điều khiển roll/pitch; núm ga không tự hồi. Hiệu chuẩn ADC trước arm.
+T03,"Công tắc ARM, piezo, LED, hộp, dây",1,50000,50000,0,0,Tay phát,Sơ đồ tay phát trong hướng dẫn,Piezo thụ động qua 1k; LED qua 1k. ARM nối GPIO25 xuống GND.
+T04,Nguồn USB 5V/power bank nhỏ cho tay phát,1,150000,150000,0,0,Tay phát,Có thể dùng power bank sẵn có để tiết kiệm,Tránh power bank tự tắt ở tải thấp; thử 15 phút.
+G01,"Sạc cân bằng 2S, chỉnh được dòng 0.2A",1,450000,450000,0,0,Mặt đất,"Yêu cầu mua: 2S LiPo balance, dòng 0.2A",Không mua sạc 1S TP4056. Sạc theo thông số pin; 1C của 220mAh là 0.22A.
+G02,Túi sạc và dây cân bằng phù hợp pin,1,60000,60000,0,0,Mặt đất,Quy cách theo giắc pin,Dự toán. Không dùng cổng BAT của XIAO để sạc 2S.
+G03,"Nguồn DC cho sạc, dự toán 12V 3A",1,150000,150000,0,0,Mặt đất,Theo điện áp/giắc IN của bộ sạc thực mua,"Bổ sung để không thiếu nguồn sạc. Chỉ chọn 12V khi bộ sạc hỗ trợ; nguồn SELV có vỏ, không nguồn hở. Nếu sạc đã tích hợp AC thì bỏ mục này."
+D01,Dự phòng vận chuyển / linh kiện lỗi,1,400000,400000,0,0,Dự phòng,"Ngân sách dự phòng, không phải báo giá",Có thể dùng một phần để làm carrier PCB hoặc thuê hàn.

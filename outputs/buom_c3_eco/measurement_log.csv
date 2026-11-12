@@ -1,0 +1,1 @@
+date,mass_g,battery_V_rest,battery_V_load,servo_V_min,logic_5V_min,frequency_Hz,amplitude_actual_deg,current_avg_A,current_peak_A,lift_mean_N,servo_temp_C,duration_s,link_faults,notes

@@ -1,0 +1,5 @@
+case,rms_position_m,max_attitude_deg,min_z_m,saturation_fraction
+nominal,0.265461,6.883207,1.230991,0.000000
+mass_plus_20pct,0.574696,7.600090,0.769340,0.000000
+delay_40ms,0.265819,7.403228,1.229733,0.000000
+strong_wind,1.083481,12.265739,1.220686,0.000000

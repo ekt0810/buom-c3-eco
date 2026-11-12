@@ -1,0 +1,18 @@
+# Publish only the reviewed project deliverables and repository documentation.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/outputs/
+/outputs/*
+!/outputs/buom_c3_eco/
+!/outputs/Buom_C3_ECO_duoi_4_trieu.zip
+
+# Local editor, Python and KiCad state.
+**/__pycache__/
+**/*.pyc
+**/*.kicad_prl
+**/*-backups/
+**/~*
+**/.DS_Store
+**/Thumbs.db

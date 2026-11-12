@@ -1,0 +1,2 @@
+# Preserve exact delivered bytes so SHA256SUMS stays valid on every OS.
+* -text

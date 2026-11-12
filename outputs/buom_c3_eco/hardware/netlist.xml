@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\trung\Documents\Codex\2026-11-12\https-www-tiktok-com-dat-cuber\outputs\buom_c3_revA\hardware\buom_c3.kicad_sch</source>
+    <date>2026-11-12T20:33:43</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Buom C3 carrier</title>
+        <company/>
+        <rev>A - prototype</rev>
+        <date>2026-11-12</date>
+        <source>buom_c3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n 16V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_C1" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad62d0b2-2905-586c-ad52-437bd55b543e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10u 16V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_C2" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a733b678-4dd2-53d5-84d5-a3666b20077c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100n 16V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_C3" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b084802-dc95-58fc-9bf6-8821aa0faf8b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10u 16V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_C4" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26a8fe82-c76d-51f3-98bf-15c0e45d04b5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>220u 16V low ESR</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_C5" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b54b794-a8a6-5bc8-af31-5b1d06373e2b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SS14</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_D1" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc4f7e39-13d2-53ad-a43a-5535d57b3c45</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>2S BAT 6.6-8.4V</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_J1" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1d48166-e4c4-544f-8e76-81f1ffbad088</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>BUCK external</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_J2" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32a437d8-0cb7-562c-8437-e2edda259c7c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>IMU 4438</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_J3" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51e66d93-87f7-5158-9c53-b947fd5cf7a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>RP1 TX OUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_J4" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfccde6d-104c-59d2-8e55-e3de376a5df8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>LEFT SERVO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_J5" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d588d507-f4a3-5a02-923e-e0a073ef1ab7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>RIGHT SERVO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_J6" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>872602a6-8d73-58e8-a54a-6e2916791509</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>LED WING BUS</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_J7" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dc3b2e9-894c-5157-838d-48f9b3237c32</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO4407A</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_Q1" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1538a907-984a-5f76-bd63-3947e38feacd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_Q2" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c27ea38e-8850-579c-a37a-a78500e99e6e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q3">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_Q3" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d96ebcbe-e260-5d2e-a196-3a8ed2bca1ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R1" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25e92716-c9cf-5c48-8bcd-434f07fb02e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>33k 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R2" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b6f70ef-3f3e-5104-b9c0-fa5b6a1075bf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R3" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bba8f957-5bde-50a8-bd1b-57c9640782ab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R4" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34c24078-377c-5596-8f65-f1cc16928594</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R5" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>082eea6b-49a3-58ef-808c-08ff1390c357</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R6" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c697358-e872-5df2-98cc-3533b49701df</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R7" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9f4d323-e01c-5ffd-94a5-f2006364425b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R8" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7e72e92-00ac-5161-9c20-a10d8756e8ea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R9" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>201d946f-c13f-5139-876f-24c200fb5263</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R10" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f87461f-dbbe-5d1f-b06e-d127c70e4c7c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R11" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6913267-1571-5e1a-ab3e-05593cb822f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_R12" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b10c77b-d451-55ab-8d71-50f2c1b28bca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>XIAO ESP32-C3</value>
+      <footprint>Buom:MCU_Seeed_C3_top14</footprint>
+      <fields>
+        <field name="Footprint">Buom:MCU_Seeed_C3_top14</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_U1" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e347db87-4e28-56df-8237-316eb8f05f20</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>74AHCT2G125DP</value>
+      <footprint>Package_SO:TSSOP-8_3x3mm_P0.65mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-8_3x3mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Buom" part="P_U2" description=""/>
+      <property name="Sheetname" value="buom_c3"/>
+      <property name="Sheetfile" value="buom_c3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cc0121e-1a64-50b1-bdc0-4f2a3c40f574</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Buom" part="P_C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100n 16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">10u 16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100n 16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">10u 16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">220u 16V low ESR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">SS14</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">2S BAT 6.6-8.4V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">BUCK external</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">IMU 4438</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">RP1 TX OUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_J5">
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">LEFT SERVO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_J6">
+      <fields>
+        <field name="Reference">J6</field>
+        <field name="Value">RIGHT SERVO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_J7">
+      <fields>
+        <field name="Reference">J7</field>
+        <field name="Value">LED WING BUS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_Q1">
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">AO4407A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_Q2">
+      <fields>
+        <field name="Reference">Q2</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_Q3">
+      <fields>
+        <field name="Reference">Q3</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">100k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">220R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">33k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">100R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">100R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R8">
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_R9">
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">220R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">XIAO ESP32-C3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D0/G2_NC" type="no_connect"/>
+        <pin num="2" name="D1/G3" type="bidirectional"/>
+        <pin num="3" name="D2/G4_ADC" type="bidirectional"/>
+        <pin num="4" name="D3/G5" type="bidirectional"/>
+        <pin num="5" name="D4/G6_SDA" type="bidirectional"/>
+        <pin num="6" name="D5/G7_SCL" type="bidirectional"/>
+        <pin num="7" name="D6/G21" type="bidirectional"/>
+        <pin num="8" name="D7/G20_RX" type="bidirectional"/>
+        <pin num="9" name="D8/G8_NC" type="no_connect"/>
+        <pin num="10" name="D9/G9_NC" type="no_connect"/>
+        <pin num="11" name="D10/G10" type="bidirectional"/>
+        <pin num="12" name="3V3_OUT" type="power_out"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="5V_IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Buom" part="P_U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">74AHCT2G125DP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1OE" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="2Y" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="2A" type="input"/>
+        <pin num="6" name="1Y" type="output"/>
+        <pin num="7" name="2OE" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Buom">
+      <uri>${KIPRJMOD}/Buom.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3" class="Default">
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="3V3_OUT_12" pintype="power_out"/>
+    </net>
+    <net code="2" name="/+5V" class="Default">
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+    </net>
+    <net code="3" name="/CRSF_RX" class="Default">
+      <node ref="J4" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="D7/G20_RX_8" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/EN_GATE" class="Default">
+      <node ref="Q2" pin="1" pinfunction="G_1" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="1OE_1" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="2OE_7" pintype="input"/>
+    </net>
+    <net code="6" name="/LED_EN" class="Default">
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="D6/G21_7" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/LED_GATE" class="Default">
+      <node ref="Q3" pin="1" pinfunction="G_1" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="8" name="/LED_RETURN" class="Default">
+      <node ref="J7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="9" name="/NGATE_D" class="Default">
+      <node ref="Q2" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="10" name="/PGATE" class="Default">
+      <node ref="Q1" pin="4" pinfunction="G_4" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="11" name="/PWM_L_3V3" class="Default">
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="D1/G3_2" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="1A_2" pintype="input"/>
+    </net>
+    <net code="12" name="/PWM_L_5V" class="Default">
+      <node ref="J5" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="13" name="/PWM_L_BUF" class="Default">
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="1Y_6" pintype="output"/>
+    </net>
+    <net code="14" name="/PWM_R_3V3" class="Default">
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="D3/G5_4" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="2A_5" pintype="input"/>
+    </net>
+    <net code="15" name="/PWM_R_5V" class="Default">
+      <node ref="J6" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="16" name="/PWM_R_BUF" class="Default">
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="2Y_3" pintype="output"/>
+    </net>
+    <net code="17" name="/SCL" class="Default">
+      <node ref="J3" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="D5/G7_SCL_6" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/SDA" class="Default">
+      <node ref="J3" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="D4/G6_SDA_5" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/SERVO_EN" class="Default">
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="D10/G10_11" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/VBAT" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="21" name="/VBAT_ADC" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="D2/G4_ADC_3" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/VSERVO" class="Default">
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D_5" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="D_7" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D_8" pintype="passive"/>
+    </net>
+    <net code="23" name="/XIAO_5V" class="Default">
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="5V_IN_14" pintype="power_in"/>
+    </net>
+    <net code="24" name="unconnected-(U1-D0/G2_NC-Pad1)" class="Default">
+      <node ref="U1" pin="1" pinfunction="D0/G2_NC_1" pintype="no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-D8/G8_NC-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="D8/G8_NC_9" pintype="no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-D9/G9_NC-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="D9/G9_NC_10" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
